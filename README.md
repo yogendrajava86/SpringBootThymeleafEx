@@ -3,10 +3,12 @@ Spring Boot Thymeleaf Example
 
 ## Thymeleaf Rules
 
-<html xmlns:th="http://www.thymeleaf.org/">
+html xmlns:th="http://www.thymeleaf.org/"
 
 @{url}
+
 ${EL}
+
 *{variable}
 -----------------------------
 
