@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Register</title>
+</head>
+<body>
+<h1>Welcome to Employee Register Page</h1>
+<hr/>
+<form action="#" method="POST" th:action="@{/emp/save}" th:object="${employee}">
+<pre>
+ID		:	<input type="text" th:field="*{empId}"/>
+Name	:	<input type="text" th:field="*{empName}"/>
+Sal		:	<input type="text" th:field="*{empSal}"/>
+
+	<input type="submit" value="Create"/>
+</pre>
+
+</form>
+</body>
+</html>
